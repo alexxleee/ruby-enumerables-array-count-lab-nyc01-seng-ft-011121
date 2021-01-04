@@ -4,6 +4,8 @@ def count_strings(array)
   array.count do |str|
     if str.instance_of? String
       count += 1
+    end
+    count
 end
 
 def count_empty_strings(array)
